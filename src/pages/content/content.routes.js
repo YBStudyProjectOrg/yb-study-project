@@ -1,5 +1,5 @@
-import Write from "@PAGES/content/write";
-import Modify from "@PAGES/content/modify";
+import Write from "@/pages/content/Write";
+import Modify from "@/pages/content/Modify";
 
 const routes = [
     { path: "/write", element: <Write /> },

@@ -1,6 +1,6 @@
 import Login from "./pages/login";
-import Write from "./pages/content/write";
-import Modify from "./pages/content/modify";
+import Write from "./pages/content/Write";
+import Modify from "./pages/content/Modify";
 
 const routes = [
   { path: "", element: <>empty</> },
