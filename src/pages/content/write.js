@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Responsive from "@/components/common/Responsive";
 import QuillEditor from '@/components/editor/QuillEditor';
+import ActionButtons from '@/components/post/ActionButtons';
 
 
 const EditorBlock = styled(Responsive)`
@@ -23,6 +24,7 @@ const Write = () => {
             <EditorBlock>
                 <TitleInput placeholder="제목을 입력하세요" />
                 <QuillEditor />
+                <ActionButtons />
             </EditorBlock>
         </Responsive>
     );
